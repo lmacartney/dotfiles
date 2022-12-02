@@ -1,0 +1,18 @@
+[user]
+	name = Lachlan Macartney
+	email = lmacartney@canva.com
+[pull]
+	rebase = true
+[credential]
+	helper = store
+[core]
+	editor = vim
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[protocol]
+	version = 2
+[maintenance]
+	repo = /Users/lmacartney/work/canva
