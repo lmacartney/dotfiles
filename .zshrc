@@ -103,6 +103,17 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias pyenv="source ~/work/canva/tools/build/python/third_party/.venv/bin/activate"
-
+export PYTHONPATH=~/work/canva/
+export PATH="/usr/local/opt/mysql-client/bin:$PATH"
 if [ -e /Users/lmacartney/.nix-profile/etc/profile.d/nix.sh ]; then . /Users/lmacartney/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 alias config='/usr/bin/git --git-dir=/Users/lmacartney/.cfg/ --work-tree=/Users/lmacartney'
+alias cdp='cd ~/work/canva/production/deploy_service'
+alias cdb='cd ~/work/canva/production/backend/deploy/buildkite'
+alias gs='git status'
+alias ga='git add'
+alias gd='git diff'
+alias gl='git log --graph'
+# Setting the passward in this way makes it so that you don't need to provide it in calls to mysql
+# client tools
+MYSQL_PWD="kpchTjppZJdoytRTJ8aRs8c9QT"

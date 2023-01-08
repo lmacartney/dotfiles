@@ -16,3 +16,5 @@
 	version = 2
 [maintenance]
 	repo = /Users/lmacartney/work/canva
+[push]
+	autoSetupRemote = true
