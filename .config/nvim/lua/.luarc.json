@@ -1,5 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/sumneko/vscode-lua/master/setting/schema.json",
+    "Lua.workspace.checkThirdParty": false,
     "Lua.workspace.library": [
         "/Users/lmacartney/.local/share/nvim/site/pack/packer/start/neodev.nvim/types/stable",
         "/usr/local/Cellar/neovim/0.8.1/share/nvim/runtime",
